@@ -1,0 +1,7 @@
+,mae,mae,mse,mse,rmse,rmse,train_time,train_time
+method,Frozen LLM (6.5%),LoRA Baseline (29.5%),Frozen LLM (6.5%),LoRA Baseline (29.5%),Frozen LLM (6.5%),LoRA Baseline (29.5%),Frozen LLM (6.5%),LoRA Baseline (29.5%)
+dataset,,,,,,,,
+ETTh1,0.558592,0.546034,0.544603,0.52295,0.737972,0.723153,82.9,65.72
+Electricity,0.241228,0.247394,0.206565,0.214769,0.454494,0.463432,128.74,123.86
+Italy Air,0.618069,0.596534,1.260557,1.188421,1.122746,1.090147,44.78,39.86
+PEMS Traffic,0.596516,0.576801,0.908956,0.858566,0.953392,0.926588,273.53,224.0

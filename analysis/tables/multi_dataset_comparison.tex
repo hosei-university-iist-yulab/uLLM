@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{Performance Comparison of Frozen LLM vs LoRA Baseline Across Multiple Datasets}
+\label{tab:multi_dataset_results}
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Dataset} & \multicolumn{3}{c}{\textbf{LoRA Baseline (29.5\%)}} & \multicolumn{3}{c}{\textbf{Frozen LLM (6.5\%)}} & \textbf{Improv.} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+& \textbf{MSE} $\downarrow$ & \textbf{MAE} $\downarrow$ & \textbf{RMSE} $\downarrow$ & \textbf{MSE} $\downarrow$ & \textbf{MAE} $\downarrow$ & \textbf{RMSE} $\downarrow$ & \textbf{MSE (\%)} $\uparrow$ \\
+\midrule
+ETTh1 & 0.5230 & 0.5460 & 0.7232 & \textbf{0.5446} & \textbf{0.5586} & \textbf{0.7380} & \textbf{-4.14} \\
+Electricity & 0.2148 & 0.2474 & 0.4634 & \textbf{0.2066} & \textbf{0.2412} & \textbf{0.4545} & \textbf{+3.82} \\
+Italy Air & 1.1884 & 0.5965 & 1.0901 & \textbf{1.2606} & \textbf{0.6181} & \textbf{1.1227} & \textbf{-6.07} \\
+PEMS Traffic & 0.8586 & 0.5768 & 0.9266 & \textbf{0.9090} & \textbf{0.5965} & \textbf{0.9534} & \textbf{-5.87} \\
+\midrule
+\textbf{Average} & 0.6962 & 0.4917 & 0.8008 & \textbf{0.7302} & \textbf{0.5036} & \textbf{0.8172} & \textbf{-4.88} \\
+\bottomrule
+\end{tabular}
+\end{table*}

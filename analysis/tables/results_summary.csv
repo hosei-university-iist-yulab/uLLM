@@ -1,0 +1,11 @@
+experiment,mse,mae,rmse,epochs,model,train_time
+LoRA + High LR,0.5238,0.5513,0.7238,200,gpt2,79.87
+LoRA + GPT2-Medium,0.5294,0.5506,0.7276,30,gpt2-medium,79.02
+LoRA Baseline (29.5%),0.5367,0.5523,0.7326,200,distilgpt2,122.45
+LoRA + All Variants,0.541,0.5554,0.7355,30,gpt2,42.89
+Frozen LLM (6.5%),0.5446,0.5586,0.738,100,gpt2,82.9
+Early Baseline,0.5467,0.6009,0.7394,200,distilgpt2,235.78
+Full Fine-Tuning (70%),0.5472,0.5577,0.7398,30,gpt2,87.84
+LoRA + Larger Patches,1.2177,0.6121,1.1035,200,distilgpt2,152.82
+unknown,1.2264,0.607,1.1074,200,gpt2,70.25
+LoRA + 12 Layers (46%),1.2603,0.6351,1.1226,200,distilgpt2,162.55

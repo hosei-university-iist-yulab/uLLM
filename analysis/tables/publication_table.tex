@@ -1,0 +1,21 @@
+\begin{table}[h]
+\centering
+\caption{Performance Comparison of UnifiedLLM Forecasting Variants on ETTh1 Dataset}
+\label{tab:results}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Experiment} & \textbf{MSE} $\downarrow$ & \textbf{MAE} $\downarrow$ & \textbf{RMSE} $\downarrow$ & \textbf{Time (s)} \\
+\midrule
+Lora + High Lr & \textbf{0.5238} & \textbf{0.5513} & \textbf{0.7238} & 79.9 \\
+Lora + Gpt2-Medium & 0.5294 & 0.5506 & 0.7276 & 79.0 \\
+Lora Baseline (29.5%) & 0.5367 & 0.5523 & 0.7326 & 122.5 \\
+Lora + All Variants & 0.5410 & 0.5554 & 0.7355 & 42.9 \\
+Frozen Llm (6.5%) & 0.5446 & 0.5586 & 0.7380 & 82.9 \\
+Early Baseline & 0.5467 & 0.6009 & 0.7394 & 235.8 \\
+Full Fine-Tuning (70%) & 0.5472 & 0.5577 & 0.7398 & 87.8 \\
+Lora + Larger Patches & 1.2177 & 0.6121 & 1.1035 & 152.8 \\
+Unknown & 1.2264 & 0.6070 & 1.1074 & 70.2 \\
+Lora + 12 Layers (46%) & 1.2603 & 0.6351 & 1.1226 & 162.6 \\
+\bottomrule
+\end{tabular}
+\end{table}
