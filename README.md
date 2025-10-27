@@ -382,7 +382,7 @@ If you use UnifiedLLM in your research, please cite our paper (journal to be det
 Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
 📧 franckjunioraboya.messou@ieee.org | franckjunioraboya.messou.3n@stu.hosei.ac.jp
 
-[ResearchGate](https://www.researchgate.net/profile/Franck-Junior-Aboya-Messou) | [IEEE Xplore](https://ieeexplore.ieee.org/author/274956027119414) | [Google Scholar](https://scholar.google.com)
+[ResearchGate](https://www.researchgate.net/profile/Franck-Junior-Aboya-Messou) | [IEEE Xplore](https://ieeexplore.ieee.org/author/274956027119414) | [Google Scholar](https://scholar.google.ca/scholar?hl=fr&as_sdt=0%2C5&q=franck+junior+aboya+messou&btnG=)
 
 **Jinhua Chen, Weiyu Wang, Yu Tao, Keping Yu**
 Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
